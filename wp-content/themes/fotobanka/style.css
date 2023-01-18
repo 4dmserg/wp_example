@@ -1,0 +1,193 @@
+/*
+Theme Name: FotoBanka
+Theme URI: https://fotobanka.photo/
+Author: FotoBanka team
+Author URI: https://fotobanka.photo/
+Description: Description
+Version: 1.0.0
+Tested up to: 6.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text FotoBanka
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+.custom-select-subcategories{
+    padding: 7px; 
+    border: solid 1px #0077B0; 
+    outline: 0; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #C6ECFF), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #C6ECFF 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    font-weight: bold;
+    padding-left: 2em;
+}
+.custom-select-subcategories option{
+    font-weight: bold;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.icon-menu:before {
+    color: white;
+}
+.foto-description{
+    font-weight: normal;
+}
+
+.redirect-to-image-page {
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.redirect-to-image-page:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+
+.redirect-to-image-page:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.redirect-to-image-page:focus {
+    outline: 0;
+    background: #fafafa;
+}
+
+.redirect-to-image-page:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;
+    width: 1.35em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before {
+    content: "\27A4";
+}
+
+.edit:before {
+    content: "\270E";
+}
+
+.delete:before {
+    content: "\2718";
+}
+
+.save:before {
+    content: "\2714";
+}
+
+.email:before {
+    content: "\2709";
+}
+
+.like:before {
+    content: "\2764";
+}
+
+.next:before {
+    content: "\279C";
+}
+
+.star:before {
+    content: "\2605";
+}
+
+.spark:before {
+    content: "\2737";
+}
+
+.play:before {
+    content: "\25B6";
+}
+
+input.qty{
+    visibility: hidden;
+    height: 0px !important;
+}
+#span-price{
+    color: #ccffcc;
+}
+button[name="add-to-cart"]{
+    cursor: pointer;
+}
+.awesomecart{
+    margin-right: 0.3em;
+}
+#cartlink{
+    margin-right: 1.3em;
+}
+/*
+.woocommerce table.cart th.product-remove, .woocommerce table.cart td.product-remove{ display: none !important; }
+.woocommerce table.cart th.product-thumbnail, .woocommerce table.cart td.product-thumbnail{ display: none !important; }
+.woocommerce table.cart th.product-name, .woocommerce table.cart td.product-name { display: none !important; }
+.woocommerce table.cart th.product-price, .woocommerce table.cart td.product-price { display: none !important; }
+.woocommerce table.cart th.product-quantity, .woocommerce table.cart td.product-quantity { display: none !important; }
+.woocommerce table.cart th.product-subtotal, .woocommerce table.cart td.product-subtotal { display: none !important; }
+*/
+
+input[name='update_cart'] {
+
+display: none !important;
+
+}
+
+/* OR YOU CAN TRY THIS */
+
+button[name='update_cart'] {
+
+display: none !important;
+
+}
+
+#product_count{
+    display: none;
+}
+
+.myaccount-menu li a:hover, .myaccount-menu li.active > a {
+  color: #20c997 !important;
+}
+.dropdown-flags{
+    display: inline-flex !important;
+}
+.dropdown-flags:hover{
+    cursor: pointer;
+}
+.dropdown-flags img{
+    -webkit-filter: grayscale(0) !important;
+}
